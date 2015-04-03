@@ -12,8 +12,9 @@
   },
   "permissions": [
     "http://ec2-52-0-6-182.compute-1.amazonaws.com/*",
-    "https://grooveshark.com/auth/*"
-    "https://auth.grooveshark*"
+    "https://grooveshark.com/auth/*",
+    "https://auth.grooveshark*",
+    "https://auth.grooveshark.com/*"
   ]
 
 }
