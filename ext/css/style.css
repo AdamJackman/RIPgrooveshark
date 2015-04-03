@@ -123,6 +123,8 @@ label, button, input {
 .mainMissLabel{
 	padding-left: 15px;
 	font-size: 20px;
+	border-bottom: 2px solid;
+  	border-bottom-left-radius: 5px;
 }
 
 .missSong{
@@ -133,9 +135,15 @@ label, button, input {
 	padding-top: 5px;
 }
 
-
-
 #missingBox{
 	overflow: scroll;
+	min-height: 200px;
 	max-height: 400px;
 }
+
+#noteBut2{
+	position: absolute;
+	top: 200px;
+	left: 375px;	
+}
+
