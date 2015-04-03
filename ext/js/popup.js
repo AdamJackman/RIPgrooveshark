@@ -24,13 +24,17 @@ function findDiff(){
 		success: function(response){
 			//Here is where you would really like to show the difference to the user
 			if(response){
-				var res = JSON.parse(response);	
-				displayMissing(res);
+				var res = JSON.parse(response);
+				displayMissing(res);		
+			}
+			else{
+				notifyMessage("No Songs Lost");
 			}
 			
 
 		},
 		error: function(){
+			notifyMessage("Connection Error");
 		}
 	});
 }
@@ -90,6 +94,7 @@ function saveLists(){
 			notifyMessage("Successfully saved your playlists");
 		},
 		error: function(){
+			notifyMessage("Connection Error");
 		}
 	});
 
