@@ -1,0 +1,122 @@
+body {
+  min-width: 500px;
+  overflow-x: hidden;
+}
+
+img {
+  margin: 5px;
+  border: 2px solid black;
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+}
+
+.Box { 
+	z-index: 1000;
+	width: 500px;
+	height: auto;
+	vertical-align: middle;
+	border: 2px solid black;
+	float: left;
+	padding: 10px;
+	background-image: url("../images/cream_dust_@2x.png");
+}
+
+#lenBox { 
+	z-index: 1000;
+	width: 500px;
+	height: auto;
+	vertical-align: middle;
+	border: 2px solid black;
+	float: left;
+	padding: 10px;
+}
+
+#padForm{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#passBut{
+	margin-right: 5px;
+}
+
+.cont {
+	background-image: url("../images/cream_dust_@2x.png");
+}
+
+html{
+	background-image: url("../images/congruent_outline.png");
+}
+
+label, button, input {
+	font-family: 'Raleway', sans-serif;
+}
+
+#nameHold{
+	z-index: 1000;
+	margin-top: 30px;
+	margin-left: 5px;
+	position:absolute;
+}
+
+.alerter{
+	position:absolute;
+	z-index: 1000;
+	width: 300px;
+	height: 125px;
+	top: 25px;
+	left: 100px;
+	vertical-align: middle;
+	border: 0.5px solid black;
+	background-image: url("../images/cream_dust_@2x.png");
+	opacity: 0.98;
+}
+
+#inpAlert{
+	margin-top: 5px;
+	margin-left: 30px;
+}
+
+#alertLabel{
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#alertBut{
+	margin-top: 3px;
+	margin-right:3px;
+}
+#alertCanc{
+	padding-top: 0px;
+	height: 22px;
+	margin-top: 15px;
+	margin-left:3px;
+}
+
+#noteBut{
+	margin-top: 80px;
+	margin-right:20px;
+	position: absolute;
+}
+
+#alertLabel2{
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#noteBut2{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#title{
+	font-size: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#iconPic{
+	margin-top: 30px;
+}
+

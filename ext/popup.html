@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<!-- Use Bootstrap and jQuery-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
+	<script src="content/jquery-2.1.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/popup.js"></script>
+	<script src="content/rollups/md5.js"></script>
+	<script src="content/rollups/pbkdf2.js"></script>
+</head>
+<body>
+	<div class="">
+		<label id="title" class="control-label pull-right" for="wPass">Restore Internet Playlists</label>  
+	</div>
+	<span id="nameHold" class="label label-default">Grooveshark</span>
+	<div class="cont">
+		
+
+		<!-- This is the clickable picture -->
+        <div>
+          <a href="" class="pull-left">
+            <img id="iconPic"class = "img-rounded" src="images/profile.png">
+          </a>
+        </div>
+
+        <!-- Create the input and ouput boxes -->
+        <div id="mainDiv" class="">
+
+        	<form id="padForm" name="HashingBox" class="form-horizontal" accept-charset="utf-8">
+		        <label class="control-label" for="wPass">Remember My Current Playlists</label>  
+		        <div class = "controls">
+		        	<button style="width: 150px;" id="saveBut" type="button" class="btn btn-success navbar-btn">Save</button>
+		    	</div>
+				
+				<label class= "contrl-label"for="sPass">Find Missing Songs Since Last Save</label>  
+				<div class="controls">
+					<button style="width: 150px;" id="findBut" type="button" class="btn btn-success navbar-btn">Find Missing</button>
+				</div>
+			</form>
+
+        </div>
+        <!-- This should be needed later -->
+        <button style="visibility: hidden;"id="passBut" type="button" class="btn btn-success navbar-btn pull-right"></button>
+
+</body>
